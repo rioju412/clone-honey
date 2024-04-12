@@ -1,0 +1,262 @@
+[1 - Suricata-Main] 2024-04-03 08:12:28 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-03 08:12:28 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-03 08:12:28 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-03 08:12:28 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-03 08:12:28 Warning: ioctl: Failure when trying to get MTU via ioctl for 'eth0': No such device (19)
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-03 08:12:29 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-03 08:12:29 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-03 08:12:29 Error: af-packet: eth0: failed to find interface type: No such device
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2024-04-03 08:12:29 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[20 - W#01-eth0] 2024-04-03 08:12:29 Error: af-packet: eth0: failed to find interface: No such device
+[20 - W#01-eth0] 2024-04-03 08:12:29 Error: af-packet: eth0: failed to init socket for interface
+[1 - Suricata-Main] 2024-04-03 08:12:29 Error: threads: thread "W#01-eth0" failed to start: flags 0423
+[1 - Suricata-Main] 2024-04-03 08:43:48 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:43:48 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-03 08:43:48 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-03 08:43:49 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-03 08:44:46 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-03 08:44:46 Info: suricata: time elapsed 57.904s
+[1 - Suricata-Main] 2024-04-03 08:44:47 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-03 08:44:47 Notice: device: ens33: packets: 369, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-03 08:44:47 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:44:47 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:44:47 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:44:47 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:44:48 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-03 08:44:48 Warning: ioctl: Failure when trying to get MTU via ioctl for 'eth0': No such device (19)
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-03 08:44:48 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-03 08:44:48 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-03 08:44:48 Error: af-packet: eth0: failed to find interface type: No such device
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: runmodes: eth0: creating 2 threads
+[1 - Suricata-Main] 2024-04-03 08:44:48 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[16 - W#01-eth0] 2024-04-03 08:44:48 Error: af-packet: eth0: failed to find interface: No such device
+[16 - W#01-eth0] 2024-04-03 08:44:48 Error: af-packet: eth0: failed to init socket for interface
+[1 - Suricata-Main] 2024-04-03 08:44:48 Error: threads: thread "W#01-eth0" failed to start: flags 0423
+[1 - Suricata-Main] 2024-04-03 08:45:26 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:45:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-03 08:45:26 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-03 08:45:26 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-03 08:50:48 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-03 08:50:49 Info: suricata: time elapsed 322.879s
+[1 - Suricata-Main] 2024-04-03 08:50:50 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-03 08:50:50 Notice: device: ens33: packets: 786, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-03 08:50:50 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:50:50 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:50:50 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-03 08:50:50 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:31:19 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-04 02:31:19 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-04 02:31:19 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-04 02:31:19 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-04 02:31:19 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:31:20 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-04 02:31:20 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-04 02:31:20 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-04 02:33:30 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-04 02:33:32 Info: suricata: time elapsed 132.091s
+[1 - Suricata-Main] 2024-04-04 02:33:33 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-04 02:33:35 Notice: device: ens33: packets: 2089, drops: 11 (0.53%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-04 02:33:35 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:33:35 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:33:35 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:33:35 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:36:39 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:36:39 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-04 02:36:39 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-04 02:36:40 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-04 03:01:17 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-04 03:01:19 Info: suricata: time elapsed 1479.318s
+[1 - Suricata-Main] 2024-04-04 03:01:21 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-04 03:01:22 Notice: device: ens33: packets: 3935, drops: 49 (1.25%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-04 03:01:22 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:01:22 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:01:22 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:01:22 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:59:42 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:59:42 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-04 03:59:42 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-04 03:59:43 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-04 04:00:46 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-04 04:00:47 Info: suricata: time elapsed 65.044s
+[1 - Suricata-Main] 2024-04-04 04:00:49 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-04 04:00:49 Notice: device: ens33: packets: 302, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-04 04:00:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 04:00:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 04:00:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-04 04:00:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:18:07 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-11 07:18:07 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-11 07:18:07 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-11 07:18:07 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:18:08 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-11 07:18:08 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-11 07:18:08 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-11 07:32:59 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-11 07:33:00 Info: suricata: time elapsed 891.898s
+[1 - Suricata-Main] 2024-04-11 07:33:02 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-11 07:33:05 Notice: device: ens33: packets: 137078, drops: 236 (0.17%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-11 07:33:05 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:05 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:05 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:05 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:48 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-11 07:33:48 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-11 07:33:48 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-11 07:33:48 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:49 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-11 07:33:49 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-11 07:33:49 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-11 08:08:18 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-11 08:08:20 Info: suricata: time elapsed 2070.649s
+[1 - Suricata-Main] 2024-04-11 08:08:25 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-11 08:08:26 Notice: device: ens33: packets: 16326, drops: 126 (0.77%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-11 08:08:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 08:08:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 08:08:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 08:08:26 Warning: ioctl: ens33: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2024-04-11 08:09:05 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-11 08:09:05 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2024-04-11 08:09:05 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-11 08:09:05 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-11 08:09:06 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-11 08:09:06 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-11 08:16:48 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-11 08:16:49 Info: suricata: time elapsed 463.515s
+[1 - Suricata-Main] 2024-04-11 08:16:50 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2024-04-11 08:16:52 Notice: device: ens33: packets: 6467, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2024-04-11 08:17:06 Notice: suricata: This is Suricata version 7.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: cpu: CPUs/cores online: 2
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: app-layer-htp: Protocol detection and parser disabled for http protocol
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: ioctl: ens33: MTU 1500
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: detect: 1 signatures processed. 0 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: runmodes: ens33: creating 2 threads
+[1 - Suricata-Main] 2024-04-11 08:17:06 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[1 - Suricata-Main] 2024-04-11 08:17:06 Notice: threads: Threads created -> W: 2 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2024-04-11 08:57:33 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2024-04-11 08:57:35 Info: suricata: time elapsed 2429.225s
+[1 - Suricata-Main] 2024-04-11 08:57:38 Info: counters: Alerts: 14
+[1 - Suricata-Main] 2024-04-11 08:57:39 Notice: device: ens33: packets: 29755, drops: 96 (0.32%), invalid chksum: 0
